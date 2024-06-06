@@ -1,0 +1,96 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .signup-page {
+    background: linear-gradient(135deg, rgba(93, 9, 186, 1), rgba(218, 32, 121, 1));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .signup-container {
+    background-color: rgba(255, 255, 255, 0.22);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signup-card {
+    background: none;
+    border: none;
+  }
+  
+  .signup-card .card-body {
+    padding: 0;
+  }
+  
+  .signup-card h2 {
+    color: rgba(255, 255, 255, 0.71);
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    color: rgba(255, 255, 255, 0.71);
+  }
+  
+  .form-control {
+    background: rgba(255, 255, 255, 0.22);
+    border: none;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.71);
+    margin-bottom: 1rem;
+  }
+  
+  .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.71);
+  }
+  
+  .btn-primary {
+    background-color: rgba(93, 9, 186, 1);
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: rgba(218, 32, 121, 1);
+  }
+  
+  .text-center a {
+    color: rgba(218, 32, 121, 1);
+  }
+  
+  .text-center a:hover {
+    color: rgba(93, 9, 186, 1);
+  }
+  
+  .alert-danger {
+    background-color: rgba(218, 32, 121, 0.5);
+    border: none;
+    color: rgba(255, 255, 255, 0.71);
+  }
+
+  @media (max-width: 768px) {
+    .signup-container {
+      padding: 20px;
+    }
+  
+    .signup-card h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .signup-container {
+      width: 100%;
+      padding: 15px;
+    }
+  
+    .btn-primary {
+      font-size: 0.9rem;
+    }
+  }
+  
