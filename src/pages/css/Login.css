@@ -1,0 +1,154 @@
+.container{
+  width: 100%;
+ 
+
+}
+.body {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  
+  }
+  .brand{
+    color: white;
+    font-style: italic;
+    font-size:2.5rem;
+    text-align: left;
+    margin-top: 10px;
+    height: 10vh;
+  }
+
+  .highlight{
+    color:#420f7d;
+         margin:6px;
+         font-size:2.8rem;
+         font-weight:bolder;
+         text-decoration:line-through;
+  }
+  .illustration {
+  max-width: 100%;
+  height: 90vh;
+  opacity: 0.8;
+  margin-top: 100px;
+  
+  }
+  
+  .loginForm {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.207);
+  height: 50vh;
+  border-radius: 20px;
+  padding: 20px;
+  position: absolute;
+  right: 55%;
+  top: 20%;
+  color: white;
+  margin-top: 50px;
+  }
+  
+  h1 {
+  text-align: center;
+  color: white;
+  }
+  
+  form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  }
+  
+  .formControl {
+  margin-top: 20px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid rgb(93, 93, 93);
+  width: 70%;
+  border-radius: 3px;
+  cursor: pointer;
+
+  }
+  
+  .login-btn {
+  width: 50%;
+  margin-top: 20px;
+  border-radius: 10px;
+  height: 6vh;
+  background-color:#641bb7b4;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  cursor: pointer;
+
+  }
+  
+  .forgotpasswod{
+  text-decoration: none;
+  position: relative;
+  margin-top: 10px;
+  color:white;
+  position: relative;
+  left: -5em;
+  cursor: pointer;
+
+  }
+  .signuplink{
+  text-decoration: none;
+  position: relative;
+  margin-top: 10px;
+  color:white;
+  position: relative;
+  cursor: pointer;
+
+  }
+  @media (max-width:1000px) {
+    .illustration{
+       width: 50%;
+
+    }
+    .loginForm {
+      width: 80%;
+      max-width: 400px;
+     
+      font-size: 1rem;
+
+    }
+  }
+  @media (max-width: 768px) {
+    .brandStyle{
+      text-align: center;
+      margin-bottom: 20px;
+
+    }
+
+    
+    .loginForm {
+      width: 90%;
+      max-width: 400px;
+      position: absolute;
+      right: auto;
+      top: auto;
+      font-size: 1rem;
+    }
+    .illustration{
+      display: none;
+    }
+    
+  }
+
+  @media (max-width: 576px) {
+    .loginForm {
+      width: 100%;
+      padding: 15px;
+    }
+
+    .btn {
+      font-size: 0.9rem;
+    }
+
+    .illustration{
+      display: none;
+    }
+  }

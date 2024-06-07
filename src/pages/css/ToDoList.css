@@ -1,0 +1,152 @@
+.brand{
+  color: white;
+  font-style: italic;
+  font-size:2.5rem;
+  text-align: left;
+  margin-top: 10px;
+  height: 10vh;
+}
+
+.highlight{
+  color:#420f7d;
+       margin:6px;
+       font-size:2.8rem;
+       font-weight:bolder;
+       text-decoration:line-through;
+}
+
+
+  
+  .highlight {
+    color: rgba(93, 9, 186, 1);
+  }
+  
+  .todo-container {
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .todo-card {
+    background-color: white;
+
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    position: absolute;
+    right: 50%;
+    top: 25%;
+    transform: translate(50%,-50%);
+  }
+  
+   .form-control {
+    background: gray;
+    color: #fff;
+    padding: 15px;
+    margin: 20px 20px 20px 0;
+    display: inline-block;
+    width: calc(100% - 130px);
+  }
+  
+  
+  
+  .add-task {
+    background: #590fb7;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 18px;
+    display: inline-block;
+    margin: 20px;
+    cursor: pointer;
+
+
+
+  }
+  
+ 
+  
+  .todo-card .list-group-item {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border: none;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin: 20px;
+  }
+  
+  .todo-card .list-group-item.completed {
+    text-decoration: line-through;
+    color: #d1d1d1;
+  }
+  
+  .deletebtn {
+    background-color: #420f7d;
+    border: none;
+    padding: 5px 10px;
+    
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .brand {
+      font-size: 2rem;
+      margin-top: 5px;
+      height: 8vh;
+    }
+  
+    .highlight {
+      font-size: 2.2rem;
+      margin: 4px;
+    }
+  
+    .todo-card {
+      width: 90%;
+      top: 20%;
+    }
+  
+    .form-control {
+      width: 100%;
+      margin: 15px 0;
+    }
+  
+    .add-task {
+      font-size: 16px;
+      margin: 15px 0;
+    }
+  
+    .todo-card .list-group-item {
+      margin: 15px;
+    }
+  }
+  
+  @media (max-width: 1000px) {
+    .brand {
+      font-size: 1.8rem;
+      height: 7vh;
+    }
+  
+    .highlight {
+      font-size: 2rem;
+      margin: 3px;
+    }
+  
+    .todo-card {
+      padding: 15px;
+    }
+  
+    .form-control {
+      padding: 12px;
+    }
+  
+    .add-task {
+      padding: 8px 16px;
+    }
+  
+    .todo-card .list-group-item {
+      padding: 12px;
+      margin: 12px;
+    }
+  }
